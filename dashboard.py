@@ -130,13 +130,13 @@ st.plotly_chart(fig)
 
 #with col2:
 fig = px.bar(sao_paulo_high_customer,
-            x=sao_paulo_high_customer["jenis_produk"].head(),
-        y=sao_paulo_high_customer["jumlah"].head(),
-        color=sao_paulo_high_customer["jumlah"].head(),
+            x=sao_paulo_high_customer["jenis_produk"],
+        y=sao_paulo_high_customer["jumlah"],
+        color=sao_paulo_high_customer["jumlah"],
         color_continuous_scale=px.colors.sequential.Blugrn,
             labels={"color":"Jumlah Pembelian","x":"Jenis Produk"}, 
             height=690, 
-            width=1100,text=sao_paulo_high_customer["jumlah"].head()
+            width=1100,text=sao_paulo_high_customer["jumlah"]
         )
 fig.update_layout(
     title='Grafik 5 Produk Terlaris untuk High-Value Costumers di Sao Paulo',
