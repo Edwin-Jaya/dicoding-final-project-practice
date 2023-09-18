@@ -139,7 +139,7 @@ fig = px.bar(sao_paulo_high_customer,
             width=1100,text=sao_paulo_high_customer["jumlah"].head()
         )
 fig.update_layout(
-    title='5 Produk Terlaris untuk High-Value Costumers di Sao Paulo',
+    title='Grafik 5 Produk Terlaris untuk High-Value Costumers di Sao Paulo',
     title_font=dict(size=32),
     title_x=0.10,
     yaxis=dict(
