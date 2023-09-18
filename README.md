@@ -13,7 +13,9 @@ Requirement untuk analisis data jupyter berada pada folder utama.
 ### Dashboard
 Requirement untuk dashboard berada pada folder dashboard.
 
+# How to run dashboard local
 ## Setup environment
+Pastikan requirements yang diinstall adalah requirements yang berada pada folder dashboard.
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
