@@ -6,6 +6,6 @@
 ## Requirement
 <code> pip install -r requirements.txt</code>
 ### Jupyter
-Requirement untuk analisis data jupyter berada pada file utama.
+Requirement untuk analisis data jupyter berada pada folder utama.
 ### Dashboard
 Requirement untuk dashboard berada pada folder dashboard.
